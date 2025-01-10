@@ -23,8 +23,8 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
-1-20-1 - Walkers/logs
-1-20-1 - Walkers/run
-1-20-1 - Walkers/run-data
-1-20-1 - Walkers/bin
-1-20-1 - Walkers/build
+ModVersions/1-20-1 - Walkers/logs
+ModVersions/1-20-1 - Walkers/run
+ModVersions/1-20-1 - Walkers/run-data
+ModVersions/1-20-1 - Walkers/bin
+ModVersions/1-20-1 - Walkers/build
