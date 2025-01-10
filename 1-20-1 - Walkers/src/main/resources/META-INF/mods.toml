@@ -1,0 +1,31 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="${47}"
+license="MIT"
+
+[[mods]]
+modId="walkers"
+
+version="${mod_version}"
+
+displayName="Goat Wick's : Walkers"
+
+displayURL="https://goatwickyt.github.io/Walkers/"
+
+displayTest="MATCH_VERSION"
+
+logoFile="logo.png"
+
+description='''
+A Minecraft mod that adds walking robots, weapons and more
+
+Mod by GoatWick
+'''
+credits="GoatWick, Vidra, Cheesus"
+
+[[dependencies.Walkers]]
+    modId="forge"
+    mandatory=true
+    versionRange="${47}"
+    ordering="NONE"
+    side="BOTH"
