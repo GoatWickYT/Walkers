@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "walkers:item/icon",
+		"particle": "walkers:item/icon"
+	}
+}
