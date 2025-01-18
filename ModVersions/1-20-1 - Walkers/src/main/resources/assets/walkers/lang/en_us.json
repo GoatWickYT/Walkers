@@ -1,5 +1,13 @@
 {
 	"item.walkers.icon" : "Walkers : Icon",
 	
-	"item.walkers.steel_ingot" : "Steel Ingot"
+	"item.walkers.steel_ingot" : "Steel Ingot",
+	
+	"item.walkers.space_helmet" : "Space Helmet",
+	
+	"item.walkers.space_chestplate" : "Space Chestplate",
+		
+	"item.walkers.space_leggings" : "Space Leggings",
+			
+	"item.walkers.space_boots" : "Space Boots"
 }

@@ -1,7 +1,8 @@
 {
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "walkers:item/steel_ingot"
+		"0": "walkers:item/steel_ingot",
+		"particle": "walkers:item/steel_ingot"
 	},
 	"elements": [
 		{

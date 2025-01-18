@@ -1,6 +1,7 @@
 package com.goatwick.walkers.core.init;
 
 import com.goatwick.walkers.Walkers;
+import com.goatwick.walkers.custom.armor.SpaceArmorItem;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
@@ -23,6 +24,25 @@ public class ItemInit {
 							.rarity(Rarity.COMMON)
 					)));
 	    
+		public static final RegistryObject<Item> SPACE_HELMET = CreativeTabInit.addToTab(
+				ITEMS.register("space_helmet",
+					() -> new SpaceArmorItem.Helmet()
+					));
+		
+		public static final RegistryObject<Item> SPACE_CHESTPLATE = CreativeTabInit.addToTab(
+				ITEMS.register("space_chestplate",
+					() -> new SpaceArmorItem.Chestplate()
+					));
+		
+		public static final RegistryObject<Item> SPACE_LEGGINGS = CreativeTabInit.addToTab(
+				ITEMS.register("space_leggings",
+					() -> new SpaceArmorItem.Leggings()
+					));
+		
+		public static final RegistryObject<Item> SPACE_BOOTS = CreativeTabInit.addToTab(
+				ITEMS.register("space_boots",
+					() -> new SpaceArmorItem.Boots()
+					));
 	    /*
 	    public static final RegistryObject<Item> EXAMPLE_ITEM = CreativeTabInit.addToTab(	
 				ITEMS.register("example_item",

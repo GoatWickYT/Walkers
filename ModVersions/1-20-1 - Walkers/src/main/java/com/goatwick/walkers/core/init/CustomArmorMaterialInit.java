@@ -1,9 +1,6 @@
 package com.goatwick.walkers.core.init;
 
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.world.item.crafting.Ingredient;
-
-public class CustomArmorMaterialInit {
+public class CustomArmorMaterialInit {	
 	/*
 	public static final CustomArmorMaterial EXAPMLE = 
 			new CustomArmorMaterial(

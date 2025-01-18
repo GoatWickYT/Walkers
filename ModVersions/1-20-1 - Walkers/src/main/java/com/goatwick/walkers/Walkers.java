@@ -13,8 +13,10 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class Walkers
 {
 	public static final String MODID = "walkers";
+
+
 	
-	public Walkers() {
+	public Walkers() {		
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		
 		ItemInit.ITEMS.register(bus);
@@ -23,5 +25,7 @@ public class Walkers
 		
 		CreativeTabInit.TABS.register(bus);
 	}
-   
+	
+	
+	
 }
