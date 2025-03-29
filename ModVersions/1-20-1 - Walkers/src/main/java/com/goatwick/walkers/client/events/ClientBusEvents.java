@@ -1,4 +1,4 @@
-package com.goatwick.walkers.client.model;
+package com.goatwick.walkers.client.events;
 
 import com.goatwick.walkers.Walkers;
 import com.goatwick.walkers.core.init.ItemInit;

@@ -71,7 +71,7 @@ public abstract class SpaceArmorItem extends ArmorItem {
 			}
 		}, type, properties);
 	}
-
+	
 	public static class Helmet extends SpaceArmorItem {
 		public Helmet() {
 			super(ArmorItem.Type.HELMET, new Item.Properties());
@@ -210,4 +210,5 @@ public abstract class SpaceArmorItem extends ArmorItem {
 			return Walkers.MODID + ":textures/entity/space_boots.png";
 		}
 	}
+
 }
